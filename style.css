@@ -129,8 +129,6 @@ body{
 
     margin-bottom: 150px;
     padding-top: 20px;
-    align-items: flex-end;
-    height: 100vh;
 
     background-image: url(./assets/Hero-bg.png);
     background-position: center bottom;
