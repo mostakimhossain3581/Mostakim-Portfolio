@@ -131,8 +131,7 @@ body{
     padding-top: 20px;
 
     background-image: url(./assets/Hero-bg.png);
-    background-position: center bottom;
-    background-size: contain;
+    background-size: 500px;
 }
 
 #hero-container{
@@ -143,7 +142,7 @@ body{
     width: 87.5%;
     margin: 0 auto;
     padding-right: 20px;
-    height: 100vh;
+    height: 97.2vh;
 
 
 }
@@ -172,7 +171,7 @@ body{
 #hero-image img{
     width: 500px;
     vertical-align: middle;
-    max-height: 100vh;
+    max-height: 90vh;
 }
 
 #skill, #exp{
