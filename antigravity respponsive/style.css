@@ -206,7 +206,11 @@ body {
 
 footer {
     background: #ffffff;
-    padding: 20px 40px;
+    padding: 30px 0;
+    box-shadow: 0px -4px 20px rgba(0, 0, 0, 0.05);
+}
+
+#footer-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -225,21 +229,30 @@ footer p {
 }
 
 .social-icons a {
-    color: #aaaaaa;
-    text-decoration: none;
-    transition: color 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
 }
 
 .social-icons a:hover {
-    color: #ffffff;
+    transform: scale(1.2);
+    /* Simple premium scale-up effect */
 }
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
+
 
 /* ==========================================
    RESPONSIVE DESIGN SYSTEM
    ========================================== */
 
 /* Safeguard to prevent horizontal overflow on smaller viewports */
-html, body {
+html,
+body {
     overflow-x: hidden;
 }
 
@@ -278,7 +291,7 @@ html, body {
         gap: 12px;
     }
 
-    .hero-btn .btn, 
+    .hero-btn .btn,
     .hero-btn .btn2 {
         margin-right: 0;
         margin-bottom: 0;
@@ -296,7 +309,8 @@ html, body {
         height: auto;
     }
 
-    #skill, #exp {
+    #skill,
+    #exp {
         margin-bottom: 80px;
     }
 
@@ -348,7 +362,7 @@ html, body {
         max-width: 360px;
         margin-bottom: 10px;
     }
-    
+
     .card-box {
         margin-bottom: 20px;
     }
@@ -364,10 +378,13 @@ html, body {
 
 /* Small Mobiles */
 @media (max-width: 600px) {
-    footer {
+    #footer-container {
         flex-direction: column;
         gap: 15px;
         text-align: center;
+    }
+
+    footer {
         padding: 30px 20px;
     }
 }
