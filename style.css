@@ -370,4 +370,10 @@ html, body {
     footer {
         padding: 30px 20px;
     }
+    .card:hover {
+    transform: scale(1.04);
+    }
+    .card{
+        margin: 6px 15px;
+    }
 }
