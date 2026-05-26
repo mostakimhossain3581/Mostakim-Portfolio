@@ -225,7 +225,7 @@ html, body {
     overflow-x: hidden;
 }
 
-/* Tablets and Medium Screens */
+/* laptops or Medium Screens */
 @media (max-width: 1024px) {
     .container {
         width: 90%;
@@ -305,7 +305,7 @@ html, body {
     }
 }
 
-/* Mobile Devices and Smaller Tablets */
+/* big mobile devices */
 @media (max-width: 768px) {
     #hero {
         background-size: 300px;
@@ -344,7 +344,7 @@ html, body {
     }
 }
 
-/* Small Mobiles */
+/* Mobiles devices */
 @media (max-width: 600px) {
     footer {
         flex-direction: column;
