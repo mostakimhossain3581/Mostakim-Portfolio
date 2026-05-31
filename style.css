@@ -92,7 +92,7 @@ body{
 .card:hover {
     transform: scale(1.1);
     opacity: 0.9;
-    background-color: #dedede;
+    background-color: #f1f1f1;
 }
 .card *{
     margin-bottom: 20px;
